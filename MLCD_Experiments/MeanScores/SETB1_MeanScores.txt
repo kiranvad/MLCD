@@ -1,0 +1,15 @@
+Metric     	 AMI 	 ARI 	 FMS 	 NMI 
+Chebychev  	 0.36 	 0.36 	 0.64 	0.42 
+CityBlock  	 0.32 	 0.34 	 0.65 	0.38 
+Correlation 	 0.17 	 0.16 	 0.58 	0.24 
+Cosine     	 0.23 	 0.25 	 0.62 	0.28 
+Euclidean  	 0.41 	 0.40 	 0.66 	0.47 
+Hamming    	 0.25 	 0.27 	 0.60 	0.28 
+Jaccard    	 0.25 	 0.27 	 0.60 	0.28 
+Minkowski  	 0.41 	 0.40 	 0.66 	0.47 
+dtw        	 0.38 	 0.38 	 0.64 	0.43 
+mt-lmnn    	 0.41 	 0.44 	 0.68 	0.47 
+seuclidean 	 0.22 	 0.21 	 0.62 	0.28 
+================================================== 
+hvalue     	 NaN 	 NaN 	 NaN 	NaN 
+pvalue     	 NaN 	 NaN 	 NaN 	NaN 

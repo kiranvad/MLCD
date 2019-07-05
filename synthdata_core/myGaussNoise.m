@@ -2,6 +2,8 @@ function [noisyD]=myGaussNoise(Data,varargin)
 %% Adds gaussian noise to the Data
 % *INPUTS:* Data: data matrix to which noise to be added (n-by-d)
 % *OUTPUTS:* noisyD: noisy data matrix of Data (n-by-d)
+
+% (c) Copyright Kiran Vaddi 2019
 %%
 if isempty(varargin)
     fprintf('Genrating noise with mean: %0.2f, stddev: %0.2f..\n ',0.0,1.0)

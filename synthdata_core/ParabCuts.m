@@ -6,6 +6,9 @@ function [dataClass]=ParabCuts(c,varargin)
 %           'plotPhases' 0(default,does not plot the ternary phases) 1 (to plot)
 % *outputs*: data: CV data generated as a gaussian superimposition N-by-n
 %              phaseVal: Values of DOFS being set for each CV curve in data
+
+% (c) Copyright Kiran Vaddi 2019
+
 %% Making Parabolic cuts in ternary space
 syms x
 class1(x)=(x-0.2)^2+0.4;

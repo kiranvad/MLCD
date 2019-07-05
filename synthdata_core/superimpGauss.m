@@ -7,6 +7,9 @@ function[y]=superimpGauss(n,PeakH,PeakT,CutOf)
 % CutOf- Maximum current at 1 (>2);
 % *OUTPUTS:*
 % y- A gaussian superimposed data (in 0,1);
+
+% (c) Copyright Kiran Vaddi 2019
+
 %%
 x=linspace(0,1,n);
 

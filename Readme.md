@@ -39,3 +39,8 @@ generate ternary compositon array in `c`, synthetic data in `data` DOFs values i
 	Run `finaldemo.m` 
 
 to produce phase diagram using Euclidean and Mahalanobis distance measure for a 4 sets of data given (SET A and B used in the paper)
+
+Notes
+------
+* We have provided the perfomance measure values used in the original paper as a CSV file in  `MLCD_Experiments` folder
+* `finaldemo.m` file contains instructions onto how to perform similar protocol.

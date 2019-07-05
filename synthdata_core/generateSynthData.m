@@ -11,7 +11,7 @@ function [data,phaseVal]=generateSynthData(c,dataClass,n)
 % *outputs*: data: CV data generated as a gaussian superimposition N-by-n
 %              phaseVal: Values of DOFS being set for each CV curve in data
 
-%%
+% (c) Copyright Kiran Vaddi 2019
 data=[];
 for i=1:size(c,1)
     if dataClass(i)==1

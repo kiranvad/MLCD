@@ -4,6 +4,9 @@ function [c]=sampleTernary(n,varargin)
 % Inputs  :  n- #of data points in ternary of each direction
 %            'plot'- 0 (No ternary plot,default) 1(plots a ternary)
 % Outputs :  c- Ternary Sampling and a Ternanry plot
+
+% (c) Copyright Kiran Vaddi 2019
+
 %% Setting up the composition space
 cMaster = linspace(0.02,1,n);
 k=1;

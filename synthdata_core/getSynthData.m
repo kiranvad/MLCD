@@ -12,7 +12,9 @@ function [c,data,phaseVal,dataClass]=getSynthData(Ncomp,Ndata,varargin)
 % data - Sample responses (each column is one response)
 % phaseVal - DOFs of each sample (each row is one sample)
 % dataClass - indicies of phase cut
-%
+
+% (c) Copyright Kiran Vaddi 2019
+
 pars.dofType = 1;
 pars.compPlot = 0;
 pars.phasePlot = 0;
