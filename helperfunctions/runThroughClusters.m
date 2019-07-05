@@ -9,8 +9,10 @@ function [error,idxcell] = runThroughClusters(dataC,dataX,orig_labels,varargin)
 %             'k'             :   Number of clusterers to be varied as a two dimensional
 %                                 row vector (defualt, [2 10])
 %             'quiet'         :   Surpress output using 1, (defualt, produces 0)
-%             'singledist'    :   Activate run though only using euclidean distance
-%                                 Particulary useful to MT-LMNN runthrough
+%             'singledist'    :   Activate run though only using a one distance
+%                                 Particulary useful to MT-LMNN,DTW runthrough
+%	     'singledistfunc' :   Distance measure to be used along 
+%				  with 'singledist' option above
 %             
 % Outputs  :
 %             error           :   F-measure with each column as a distance metric
@@ -24,7 +26,8 @@ function [error,idxcell] = runThroughClusters(dataC,dataX,orig_labels,varargin)
 %                                     7. ChebyChev
 %                                     8. Hamming
 %                                     9. Jacard
-%                                 
+%             idxcell 	     : Also outputs an indices for each setting
+%                     
 % See also, clusterdata,findphasesSC,findFmeasure
 % 
 % For questions send an email to: kiranvad@buffalo.edu
@@ -34,8 +37,7 @@ pars.k = [2 10];
 pars.quiet = 0;
 pars.singledist = 0;
 pars.singledistfunc = 'euclidean';
-pars.plot = 0;
-pars.savedir = [];
+
 pars = extractpars(varargin,pars);
 
 
@@ -76,13 +78,6 @@ parfor i=1:length(distanceFuncs)
                 distanceFuncs{i},'Linkage',linkageFuncs{j});
             temperror = [temperror;findFmeasure(idx,orig_labels)];
             tempidxs = [tempidxs idx];
-            if pars.plot
-                %plotTernary(dataC,'color',idx,'label',clabel);
-                plotPhaseDiagram(dataC,idx);
-                fig_save('format','png','fname',['HCA_' num2str(k) '_'...
-                    distanceFuncs{i} '_' linkageFuncs{j}],'directory',pars.savedir);
-                close;
-            end
         end
     end
     
@@ -98,12 +93,6 @@ parfor i=1:length(distanceFuncs)
                         'distfunc',distanceFuncs{i},'plot',0,'adjType',adjType{adjtype});
                     temperror = [temperror;findFmeasure(idx,orig_labels)];
                     tempidxs = [tempidxs idx];
-                    if pars.plot
-                        %plotTernary(dataC,'color',idx,'label',clabel);
-                        plotPhaseDiagram(dataC,idx);
-                        fig_save('format','png','fname',['SC_' num2str(k) '_' num2str(sKNN) '_' adjType{adjtype}],'directory',pars.savedir);
-                        close;
-                    end
                 catch
                     fprintf('skipped Spectral Clustering: %s\t%i\t%s\t%i\n',distanceFuncs{i},...
                         k,adjType{adjtype},sKNN)
