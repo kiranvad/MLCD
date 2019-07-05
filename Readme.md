@@ -30,12 +30,12 @@ This demo folder can be used to do the following:
 
 	`[c,data,phaseVal,dataClass]=getSynthData(30,350)`;
 
-generate ternary compositon array in c, synthetic data in 'data' DOFs values in phaseVal and phase indicies in dataClass
+generate ternary compositon array in `c`, synthetic data in `data` DOFs values in `phaseVal` and phase indicies in `dataClass`
 
 2. For a given distance metric, find phase diagram of a ternay using Grpah Partition or
    Heirarchial Clustering (see paper for more information) 
    For example: 
 
-	Run `finaldemo.m` to produce phase diagram using Euclidean and
+	Run `finaldemo.m` 
 
-Mahalanobis distance measure for a 4 sets of data given (SET A and B used in the paper)
+to produce phase diagram using Euclidean and Mahalanobis distance measure for a 4 sets of data given (SET A and B used in the paper)
