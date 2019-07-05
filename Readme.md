@@ -17,9 +17,7 @@ We use the following packages available for free online:
 The MTML framework learns a Mahalanobis distance using MT-LMNN framework 
 introduced in the following paper:
 
-	Parameswaran, Shibin, and Kilian Q. Weinberger. 
-	"Large margin multi-task metric learning.
-	" Advances in neural information processing systems. 2010.
+	Parameswaran, Shibin, and Kilian Q. Weinberger. "Large margin multi-task metric learning." 		Advances in neural information processing systems. 2010..
 
 MT-LMNN code is NOT-ditributed along with this package.
 
