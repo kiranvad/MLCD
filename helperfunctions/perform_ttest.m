@@ -1,6 +1,6 @@
-function []=savemean_clusterperf(direc)
-folderInfo = dir([ direc '/*.csv*']);
-fileID = fopen([pwd direc '_MeanScores.txt'],'w');
+function []=perform_ttest(direc)
+folderInfo = dir([direc '/*.csv*']);
+fileID = fopen([pwd  '/MeanScores/' direc '_MeanScores.txt'],'w');
 fprintf(fileID,'%-10s \t AMI \t ARI \t FMS \t NMI \n','Metric');
 val = [];
 for i=1:length(folderInfo)
