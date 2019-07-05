@@ -8,11 +8,9 @@ to where you extracted the archieve to
 
 We use the following packages available for free online:
 
-* [SpectralClustering suite]
-(http://vision.ucsd.edu/~sagarwal/spectral-0.2.tgz)
+* [SpectralClustering suite](http://vision.ucsd.edu/~sagarwal/spectral-0.2.tgz)
 
-* [Ternay plotting software]
- (https://www.mathworks.com/matlabcentral/fileexchange/7210-ternary-plots)
+* [Ternay plotting software](https://www.mathworks.com/matlabcentral/fileexchange/7210-ternary-plots)
 
 The MTML framework learns a Mahalanobis distance using MT-LMNN framework 
 introduced in the following paper:
