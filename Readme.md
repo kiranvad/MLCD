@@ -3,9 +3,6 @@ Metric Learning for Combinatorial Datasets
 
 This is a demo of Multi-Task metric learning framework introduced for combinatorial datasets.
 
-Please extract the archieve into a folder and change the matlab directory 
-to where you extracted the archieve to
-
 We use the following packages available for free online:
 
 * [SpectralClustering suite](http://vision.ucsd.edu/~sagarwal/spectral-0.2.tgz)
@@ -15,13 +12,16 @@ We use the following packages available for free online:
 The MTML framework learns a Mahalanobis distance using MT-LMNN framework 
 introduced in the following paper:
 
-	Parameswaran, Shibin, and Kilian Q. Weinberger. 
-	"Large margin multi-task metric learning."
-	Advances in neural information processing systems. 2010
+>Parameswaran, Shibin, and Kilian Q. Weinberger. 
+>"Large margin multi-task metric learning."
+>Advances in neural information processing systems. 2010
 
 MT-LMNN code is NOT-ditributed along with this package.
 
 This demo folder can be used to do the following:
+
+Please extract the archieve into a folder and change the matlab directory 
+to where you extracted the archieve toPlease extract the archieve into a folder and change the matlab directory to where you extracted the archieve to
 
 1. Generate synthetic data of a ternary space (used for MTML framework)
    For example: 
@@ -40,5 +40,5 @@ to produce phase diagram using Euclidean and Mahalanobis distance measure for a 
 
 Notes
 ------
-* We have provided the perfomance measure values used in the original paper as a CSV file in  `MLCD_Experiments` folder
-* `finaldemo.m` file contains instructions onto how to perform similar protocol.
+* We have provided the exhaustive list of perfomance measure used in the original paper as a CSV file in  `MLCD_Experiments` folder
+* `finaldemo.m` file also contains instructions onto how to perform performance evaluation protocol.
