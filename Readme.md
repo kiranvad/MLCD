@@ -21,7 +21,7 @@ MT-LMNN code is NOT-ditributed along with this package.
 This demo folder can be used to do the following:
 
 Please extract the archieve into a folder and change the matlab directory 
-to where you extracted the archieve toPlease extract the archieve into a folder and change the matlab directory to where you extracted the archieve to
+to where you extracted the archieve to
 
 1. Generate synthetic data of a ternary space (used for MTML framework)
    For example: 
