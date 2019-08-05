@@ -64,7 +64,7 @@ indxcell = [indx_std indx_mtlmnn indx_dtw];
 % measures used in the original Paper on MLCD
 % One first needs to create a CSV file with different perormance measures
 % This can be done using the following pieces of codes in Python:
-% 	from cluster_perfomance.py import *
+% 	from cluster_perfomance import *
 % 	report_for_givenfolder  ('indxcell_saved_as_mat_file','dataClass_saved_as_mat_file','your_directory_name')
 % Once the CSV files are created in a directory, you can then perform a one-sample one sided paired
 % t-test using the file provided in MATLAB:

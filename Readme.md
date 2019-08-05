@@ -9,7 +9,7 @@ We use the following packages available for free online:
 
 * [Ternay plotting software](https://www.mathworks.com/matlabcentral/fileexchange/7210-ternary-plots)
 
-The MTML framework learns a Mahalanobis distance using MT-LMNN framework 
+The MLCD framework learns a Mahalanobis distance using MT-LMNN framework 
 introduced in the following paper:
 
 >Parameswaran, Shibin, and Kilian Q. Weinberger. 
@@ -40,5 +40,5 @@ to produce phase diagram using Euclidean and Mahalanobis distance measure for a 
 
 Notes
 ------
-* We have provided the exhaustive list of perfomance measure used in the original paper as a CSV file in  `MLCD_Experiments` folder
+* We have provided the exhaustive list of perfomance measures used for t-test in the original paper as a CSV file in  `MLCD_Experiments` folder. This folder also contains .mat files for F-measure used . 
 * `finaldemo.m` file also contains instructions onto how to perform performance evaluation protocol.

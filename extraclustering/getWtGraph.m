@@ -14,7 +14,7 @@ function [W]=getWtGraph(Data,Weights,varargin)
 %  (can be used as an affinity matrix input for spectral clustering)
 %% Get required parameters
 global pars
-
+pars = extractpars(varargin,pars);
 %% Generate adjacency matric for composition using k=10
 % Data--> composition data with each row as one sample
 
