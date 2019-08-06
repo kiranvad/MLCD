@@ -3,7 +3,7 @@ Metric Learning for Combinatorial Datasets
 
 This is a demo of Multi-Task metric learning framework introduced for combinatorial datasets.
 
-We use the following packages available for free online:
+We use the following packages available for free:
 
 * [SpectralClustering suite](http://vision.ucsd.edu/~sagarwal/spectral-0.2.tgz)
 
@@ -18,8 +18,8 @@ introduced in the following paper:
 
 MT-LMNN code is NOT-distributed along with this package.
 
-Extract the archieve into a folder and change the matlab directory 
-to where you extracted the archieve.
+Extract the archive into a folder and change the MATLAB working directory 
+to where you extracted the archive.
 
 This demo folder can be used to do the following:
 
@@ -28,9 +28,9 @@ This demo folder can be used to do the following:
 
 	`[c,data,phaseVal,dataClass]=getSynthData(30,350)`;
 
-generates ternary compositon array in `c`, synthetic data in `data`, degrees of freedom (DOFs) values in `phaseVal` and phase indicies in `dataClass`
+generates ternary composition array in `c`, synthetic data in `data`, degrees of freedom (DOFs) values in `phaseVal` and phase indices in `dataClass`
 
-2. For a given distance metric, one can find a phase diagram of a ternay using Graph Partition or Hierarchical Clustering (see paper for more information) 
+2. For a given distance metric, one can find a phase diagram of a ternary using Graph Partition or Hierarchical Clustering (see paper for more information) 
    For example: 
 
 	Run `finaldemo.m` 
@@ -39,6 +39,6 @@ to produce phase diagram using Euclidean and Mahalanobis distance measure for a 
 
 Notes
 ------
-* We have provided the exhaustive list of perfomance measures used for t-test in the original paper as a CSV file in  `MLCD_Experiments` folder. This folder also contains .mat files for F-measure used. 
+* We have provided the exhaustive list of performance measures used for t-test in the original paper as a CSV file in  `MLCD_Experiments` folder. This folder also contains .mat files for F-measure used. 
 * `finaldemo.m` file also contains instructions onto how to perform performance evaluation protocol.
 

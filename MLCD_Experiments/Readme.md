@@ -2,13 +2,13 @@ This folder contains the performance measure(s) computed for the case studies in
 
 F-measures
 -----------
-* F-measures folder contains the F-scores computed to perform a comparitive study of metric performance on material science datasets.
-* Each .mat file is a MATLAB cell with rows as the following distance metrics in the order specfiied here:
+* F-measures folder contains the F-scores computed to perform a comparative study of metric performance on material science datasets.
+* Each .mat file is a MATLAB cell with rows as the following distance metrics in the order specified here:
 
 1. Euclidean
 2. Cosine
 3. Correlation
-4. Standarized Euclidean(seuclidean)
+4. Standardized Euclidean(seuclidean)
 5. City Block
 6. Minkowski
 7. Chebychev
@@ -21,8 +21,8 @@ F-measures
 
 ttest
 -----
-* ttest folder contains CSV files corresponding to various performance measures computed to perform a sophisticated, stastical t-test (one-sided, paired with a significance level of 0.01) to naturally asses the following Null hypothesis: 
+* ttest folder contains CSV files corresponding to various performance measures computed to perform a sophisticated, statistical t-test (one-sided, paired with a significance level of 0.01) to naturally asses the following Null hypothesis: 
 
 > H0 : mt-lmnn is comparable to the best performing measure
 
-* Clustering settings used to compute the performance measures are also provided as text files. Each line in the text file correspond to relvant row in CSV file for a given metric.
+* Clustering settings used to compute the performance measures are also provided as text files. Each line in the text file correspond to relevant row in CSV file for a given metric.
