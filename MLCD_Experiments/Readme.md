@@ -21,6 +21,8 @@ F-measures
 
 ttest
 -----
-* ttest folder contains CSV files corresponding to various performance measures computed to perform a sphisticated, stastical t-test (one-sided, paired with a significance level of 0.01) to naturally asses the following Null hypothesis: 
-	`H0 : mt-lmnn is comparable to the best performing measure`
+* ttest folder contains CSV files corresponding to various performance measures computed to perform a sophisticated, stastical t-test (one-sided, paired with a significance level of 0.01) to naturally asses the following Null hypothesis: 
+
+> H0 : mt-lmnn is comparable to the best performing measure
+
 * Clustering settings used to compute the performance measures are also provided as text files. Each line in the text file correspond to relvant row in CSV file for a given metric.

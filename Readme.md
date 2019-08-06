@@ -16,22 +16,21 @@ introduced in the following paper:
 >"Large margin multi-task metric learning."
 >Advances in neural information processing systems. 2010
 
-MT-LMNN code is NOT-ditributed along with this package.
+MT-LMNN code is NOT-distributed along with this package.
+
+Extract the archieve into a folder and change the matlab directory 
+to where you extracted the archieve.
 
 This demo folder can be used to do the following:
-
-Please extract the archieve into a folder and change the matlab directory 
-to where you extracted the archieve to
 
 1. Generate synthetic data of a ternary space (used for MTML framework)
    For example: 
 
 	`[c,data,phaseVal,dataClass]=getSynthData(30,350)`;
 
-generate ternary compositon array in `c`, synthetic data in `data` DOFs values in `phaseVal` and phase indicies in `dataClass`
+generates ternary compositon array in `c`, synthetic data in `data`, degrees of freedom (DOFs) values in `phaseVal` and phase indicies in `dataClass`
 
-2. For a given distance metric, find phase diagram of a ternay using Grpah Partition or
-   Heirarchial Clustering (see paper for more information) 
+2. For a given distance metric, one can find a phase diagram of a ternay using Graph Partition or Hierarchial Clustering (see paper for more information) 
    For example: 
 
 	Run `finaldemo.m` 
