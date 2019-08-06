@@ -30,7 +30,7 @@ This demo folder can be used to do the following:
 
 generates ternary compositon array in `c`, synthetic data in `data`, degrees of freedom (DOFs) values in `phaseVal` and phase indicies in `dataClass`
 
-2. For a given distance metric, one can find a phase diagram of a ternay using Graph Partition or Hierarchial Clustering (see paper for more information) 
+2. For a given distance metric, one can find a phase diagram of a ternay using Graph Partition or Hierarchical Clustering (see paper for more information) 
    For example: 
 
 	Run `finaldemo.m` 
