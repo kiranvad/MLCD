@@ -50,7 +50,7 @@ fprintf('F-measure MT LMNN :<strong> %0.2f</strong>\n ',error);
 
 %% A sample demo to replicate the experiments from the paper:
 
-fprintf('%%%%%%%%%%%%%%%%%%%%%% \n')
+fprintf('Collecting clustering results for metrics... \n')
 
 [~,indx_std] = runThroughClusters(c,data',dataClass,'k',[2 3]);
 
@@ -60,15 +60,7 @@ fprintf('%%%%%%%%%%%%%%%%%%%%%% \n')
     'singledistfunc','dtw');
 indxcell = [indx_std indx_mtlmnn indx_dtw];
 
-% A python file is also provided to compute various perfomance 
-% measures used in the original Paper on MLCD
-% One first needs to create a CSV file with different perormance measures
-% This can be done using the following pieces of codes in Python:
-% 	from helperfunctions.cluster_perfomance import *
-% 	report_for_givenfolder  ('indxcell_saved_as_mat_file','dataClass_saved_as_mat_file','your_directory_name')
-% Once the CSV files are created in a directory, you can then perform a one-sample one sided paired
-% t-test using the file provided in MATLAB:
-% 	perform_ttest(your_directory_name)
+
 
 
 

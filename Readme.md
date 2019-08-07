@@ -40,5 +40,6 @@ to produce phase diagram using Euclidean and Mahalanobis distance measure for a 
 Notes
 ------
 * We have provided the exhaustive list of performance measures used for t-test in the original paper as a CSV file in  `MLCD_Experiments` folder. This folder also contains .mat files for F-measure used. 
-* `finaldemo.m` file also contains instructions onto how to perform performance evaluation protocol.
+
+* Instruction to run a t-test along with a demo can be found in `MLCD_Experiments` folder
 
