@@ -26,3 +26,39 @@ ttest
 > H0 : mt-lmnn is comparable to the best performing measure
 
 * Clustering settings used to compute the performance measures are also provided as text files. Each line in the text file correspond to relevant row in CSV file for a given metric.
+
+demo
+----
+A python file is also provided to compute various performance measures used in the original Paper on MLCD. One first needs to create a CSV file with different performance measures
+
+This can be done using the following pieces of codes in Python with in the ttest directory:
+
+> python cluster_performance.py
+
+This code creates CSV files for `SETA1` dataset and can be modified to do the same for other datasets provided in `IndxFiles` folder
+
+Once the CSV files are created in a directory, you can then perform a one-sided paired t-test using the file provided in MATLAB:
+ 	
+> perform_ttest(your_directory_name)
+
+The programs were tested on Python 3 and MATLAB 2018b.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
