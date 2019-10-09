@@ -1,45 +1,21 @@
-Metric Learning for Combinatorial Datasets
-===========================================
+# Metric Learning for Combinatorial Datasets (MLCD)
+This repository contains the MATLAB code to perform metric learning for a combinatorial datasets. The correspondng paper is listed below:
+>> K.Vaddi, O.Wodo, Metric Learning for High-throughput Combinatorial Data Sets Under review ACS Combinatorial Sciences~(submitted April 2019).
 
-This is a demo of Multi-Task metric learning framework introduced for combinatorial datasets.
+Our software would require MATLAB 2018b or higher with mex files compatability.
+Along with the MLCD code, we have also distributed the MT-LMNN code which accompanies the following paper.
 
-We use the following packages available for free:
+>>Parameswaran, Shibin, and Kilian Q. Weinberger. "Large margin multi-task metric learning."
+Advances in neural information processing systems. 2010
 
-* [SpectralClustering suite](http://vision.ucsd.edu/~sagarwal/spectral-0.2.tgz)
+We thank the autors of MT-LMNN for letting us use the software under MIT-Licence which is attached to the corresponding folder.
 
-* [Ternay plotting software](https://www.mathworks.com/matlabcentral/fileexchange/7210-ternary-plots)
+## Demo(s)
+This repository contains the following demos:
+* To perform a demo of MT-LMNN from the original paer by Shibin et.al, run `demo_MTLMNN.m`
+* To perform a demo of MLCD on an open source XRD dataset, run `demo_MLCD.m`
 
-The MLCD framework learns a Mahalanobis distance using MT-LMNN framework 
-introduced in the following paper:
+## Notes
+We have also provided the codes for the data and analysis used in our paper Vaddi et.al, in the folder `MLCD_paper`. You can find more details on reproducing the results from the paper in `MLCD_paper` folder.
 
->Parameswaran, Shibin, and Kilian Q. Weinberger. 
->"Large margin multi-task metric learning."
->Advances in neural information processing systems. 2010
-
-MT-LMNN code is NOT-distributed along with this package.
-
-Extract the archive into a folder and change the MATLAB working directory 
-to where you extracted the archive.
-
-This demo folder can be used to do the following:
-
-1. Generate synthetic data of a ternary space (used for MTML framework)
-   For example: 
-
-	`[c,data,phaseVal,dataClass]=getSynthData(30,350)`;
-
-generates ternary composition array in `c`, synthetic data in `data`, degrees of freedom (DOFs) values in `phaseVal` and phase indices in `dataClass`
-
-2. For a given distance metric, one can find a phase diagram of a ternary using Graph Partition or Hierarchical Clustering (see paper for more information) 
-   For example: 
-
-	Run `finaldemo.m` 
-
-to produce phase diagram using Euclidean and Mahalanobis distance measure for a 4 sets of data given (SET A and B used in the paper)
-
-Notes
-------
-* We have provided the exhaustive list of performance measures used for t-test in the original paper as a CSV file in  `MLCD_Experiments` folder. This folder also contains .mat files for F-measure used. 
-
-* Instruction to run a t-test along with a demo can be found in `MLCD_Experiments` folder
 

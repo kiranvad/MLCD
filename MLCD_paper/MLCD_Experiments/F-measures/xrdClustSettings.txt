@@ -1,0 +1,42 @@
+k - Number of clusters
+Sigma - Local scaling for spectral clustering
+------------------------------------------------------------
+HCA			average		 k = 5 
+HCA			average		 k = 6 
+HCA			average		 k = 7 
+HCA			single		 k = 5 
+HCA			single		 k = 6 
+HCA			single		 k = 7 
+HCA			complete		 k = 5 
+HCA			complete		 k = 6 
+HCA			complete		 k = 7 
+Spectral Clustering 	 k = 5 	 Sigma = 2 	 graph = kNN 
+Spectral Clustering 	 k = 5 	 Sigma = 2 	 graph = del 
+Spectral Clustering 	 k = 5 	 Sigma = 3 	 graph = kNN 
+Spectral Clustering 	 k = 5 	 Sigma = 3 	 graph = del 
+Spectral Clustering 	 k = 5 	 Sigma = 4 	 graph = kNN 
+Spectral Clustering 	 k = 5 	 Sigma = 4 	 graph = del 
+Spectral Clustering 	 k = 5 	 Sigma = 5 	 graph = kNN 
+Spectral Clustering 	 k = 5 	 Sigma = 5 	 graph = del 
+Spectral Clustering 	 k = 5 	 Sigma = 6 	 graph = kNN 
+Spectral Clustering 	 k = 5 	 Sigma = 6 	 graph = del 
+Spectral Clustering 	 k = 6 	 Sigma = 2 	 graph = kNN 
+Spectral Clustering 	 k = 6 	 Sigma = 2 	 graph = del 
+Spectral Clustering 	 k = 6 	 Sigma = 3 	 graph = kNN 
+Spectral Clustering 	 k = 6 	 Sigma = 3 	 graph = del 
+Spectral Clustering 	 k = 6 	 Sigma = 4 	 graph = kNN 
+Spectral Clustering 	 k = 6 	 Sigma = 4 	 graph = del 
+Spectral Clustering 	 k = 6 	 Sigma = 5 	 graph = kNN 
+Spectral Clustering 	 k = 6 	 Sigma = 5 	 graph = del 
+Spectral Clustering 	 k = 6 	 Sigma = 6 	 graph = kNN 
+Spectral Clustering 	 k = 6 	 Sigma = 6 	 graph = del 
+Spectral Clustering 	 k = 7 	 Sigma = 2 	 graph = kNN 
+Spectral Clustering 	 k = 7 	 Sigma = 2 	 graph = del 
+Spectral Clustering 	 k = 7 	 Sigma = 3 	 graph = kNN 
+Spectral Clustering 	 k = 7 	 Sigma = 3 	 graph = del 
+Spectral Clustering 	 k = 7 	 Sigma = 4 	 graph = kNN 
+Spectral Clustering 	 k = 7 	 Sigma = 4 	 graph = del 
+Spectral Clustering 	 k = 7 	 Sigma = 5 	 graph = kNN 
+Spectral Clustering 	 k = 7 	 Sigma = 5 	 graph = del 
+Spectral Clustering 	 k = 7 	 Sigma = 6 	 graph = kNN 
+Spectral Clustering 	 k = 7 	 Sigma = 6 	 graph = del 
